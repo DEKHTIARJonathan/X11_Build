@@ -1,0 +1,10 @@
+https://en.wikibooks.org/wiki/OpenGL_Programming/Installation/Linux
+
+sudo apt-get install build-essential libgl1-mesa-dev
+sudo apt-get install libglew-dev libglm-dev libfreetype6-dev
+
+wget https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86.sh
+bash Miniconda2-latest-Linux-x86.sh
+
+conda update conda
+conda install vtk
